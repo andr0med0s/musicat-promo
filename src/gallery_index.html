@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs//magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class=" header ">
+        <div class="burger ">
+            <div class="burger__patty "></div>
+            <div class="burger__patty "></div>
+            <div class="burger__patty "></div>
+        </div>
+
+        <nav class="menu ">
+            <div class="menu__brand ">
+                <a href=" ">
+                    <div class="logo "></div>
+                </a>
+            </div>
+            <ul class="menu__list ">
+                <li class="menu__item "><a href="./index.html" class="menu__link ">Home</a></li>
+                <li class="menu__item "><a href=" " class="menu__link ">About</a></li>
+                <li class="menu__item "><a href="./gallery_index.html " class="menu__link ">Gallery</a></li>
+                <li class="menu__item "><a href=" " class="menu__link ">Contact</a></li>
+                <li class="menu__item "><a href=" " class="menu__link ">Locatons</a></li>
+                <li class="menu__item "><a href=" " class="menu__link ">Testimonials</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="gallery-section">
+        <div class="inner-width">
+            <h1>My Gallery</h1>
+            <div class="border"></div>
+            <div class="gallery">
+
+                <a href="img/gallery_img/1.jpg" class="image">
+                    <img src="img/gallery_img/1.jpg" alt="">
+                </a>
+
+                <a href="img/gallery_img/2.jpg" class="image">
+                    <img src="img/gallery_img/2.jpg" alt="">
+                </a>
+
+                <a href="img/gallery_img/3.jpg" class="image">
+                    <img src="img/gallery_img/3.jpg" alt="">
+                </a>
+
+                <a href="img/gallery_img/4.jpg" class="image">
+                    <img src="img/gallery_img/4.jpg" alt="">
+                </a>
+
+                <a href="img/gallery_img/5.png" class="image">
+                    <img src="img/gallery_img/5.png" alt="">
+                </a>
+
+                <a href="img/gallery_img/6.jpg" class="image">
+                    <img src="img/gallery_img/6.jpg" alt="">
+                </a>
+
+                <a href="img/gallery_img/7.png" class="image">
+                    <img src="img/gallery_img/7.png" alt="">
+                </a>
+
+                <a href="img/gallery_img/8.png" class="image">
+                    <img src="img/gallery_img/8.png" alt="">
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main__script.js"></script>
+
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    </script>
+
+</body>
+
+</html>
